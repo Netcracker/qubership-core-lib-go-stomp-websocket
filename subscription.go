@@ -28,7 +28,6 @@ func (stompClient StompClient) Subscribe(topic string) (*Subscription, error) {
 }
 
 func (s *Subscription) Unsubscribe() {
-
 	headers := []string{"id:" + s.Id}
 	ch := make(chan *Frame)
 	s.stompClient.writeCh <- writeRequest{
