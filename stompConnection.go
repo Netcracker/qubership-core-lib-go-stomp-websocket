@@ -162,7 +162,7 @@ func processLoop(stompClient *StompClient) {
 					if ch, ok := channels[id]; ok {
 						ch <- f
 					} else {
-						logger.Infof("ignored MESSAGE for subscription", id)
+						logger.Infof("ignored MESSAGE for subscription %v", id)
 					}
 				}
 			}
@@ -181,7 +181,7 @@ func processLoop(stompClient *StompClient) {
 			}
 			err := stompClient.connection.WriteMessage(1, req.Frame.Bytes())
 			if err != nil {
-				logger.Infof("Can't send message", err)
+				logger.Infof("Can't send message: %v", err)
 			}
 		}
 	}
