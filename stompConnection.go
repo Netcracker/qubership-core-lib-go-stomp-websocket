@@ -181,7 +181,7 @@ func processLoop(stompClient *StompClient) {
 			}
 			err := stompClient.connection.WriteMessage(1, req.Frame.Bytes())
 			if err != nil {
-				logger.Infof("Can't send message: %v", err)
+				logger.Infof("Can't send message: %+v", err)
 			}
 		}
 	}
