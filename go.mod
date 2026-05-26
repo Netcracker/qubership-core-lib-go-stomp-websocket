@@ -1,6 +1,6 @@
 module github.com/netcracker/qubership-core-lib-go-stomp-websocket/v3
 
-go 1.26.2
+go 1.26.3
 
 require (
 	github.com/google/uuid v1.6.0
