@@ -31,8 +31,8 @@ github.com/mitchellh/copystructure v1.2.0 h1:vpKXTN4ewci03Vljg/q9QvCGUDttBOGBIa1
 github.com/mitchellh/copystructure v1.2.0/go.mod h1:qLl+cE2AmVv+CoeAwDPye/v+N2HKCj9FbZEVFJRxO9s=
 github.com/mitchellh/reflectwalk v1.0.2 h1:G2LzWKi524PWgd3mLHV8Y5k7s6XUvT0Gef6zxSIeXaQ=
 github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx0jmZXqmk4esnw=
-github.com/netcracker/qubership-core-lib-go/v3 v3.9.1 h1:Cz3NrT5kWYLVQciOZt0Rz4FHergTuIYLe3Nf5xu/edw=
-github.com/netcracker/qubership-core-lib-go/v3 v3.9.1/go.mod h1:REJ6332XpbP4n20tnCrkJ2iNxgzoo0H6SEf5NHIKRvg=
+github.com/netcracker/qubership-core-lib-go/v3 v3.10.0 h1:8Wr93SkwxwFTJNVWPAMTNsKMucOFDZY96RfaTSbXVRQ=
+github.com/netcracker/qubership-core-lib-go/v3 v3.10.0/go.mod h1:REJ6332XpbP4n20tnCrkJ2iNxgzoo0H6SEf5NHIKRvg=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
