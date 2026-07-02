@@ -5,7 +5,7 @@ go 1.26.4
 require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.3
-	github.com/netcracker/qubership-core-lib-go/v3 v3.12.0
+	github.com/netcracker/qubership-core-lib-go/v3 v3.13.0
 	github.com/stretchr/testify v1.11.1
 )
 
