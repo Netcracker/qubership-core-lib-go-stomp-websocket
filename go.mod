@@ -1,11 +1,11 @@
 module github.com/netcracker/qubership-core-lib-go-stomp-websocket/v3
 
-go 1.26.4
+go 1.26.5
 
 require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.3
-	github.com/netcracker/qubership-core-lib-go/v3 v3.13.2
+	github.com/netcracker/qubership-core-lib-go/v3 v3.13.3
 	github.com/stretchr/testify v1.11.1
 )
 
